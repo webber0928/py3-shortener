@@ -13,7 +13,9 @@
 Response:
     200:
         { "code": 200, "message": "ok." }
+```
 
+```
 2. create short url
 [POST] /
 
@@ -32,7 +34,9 @@ Response:
     410:
         # alias repeat
         { "code": 410, "message": "Alias repeat" }
+```
 
+```
 3. search date
 [GET] /search
 
@@ -65,21 +69,21 @@ Response:
         {
             "Date": "2020-04-18",
             "Values": [
-            {
-                "alias": "dc270a",
-                "origin": "https://www.google.com.tw?region=zh_tw#/firstpage",
-                "counts": 1
-            }
+                {
+                    "alias": "dc270a",
+                    "origin": "https://www.google.com.tw?region=zh_tw#/firstpage",
+                    "counts": 1
+                }
             ]
         },
         {
             "Date": "2020-05-05",
             "Values": [
-            {
-                "alias": "dcRi4m",
-                "origin": "https://www.google.com.tw?region=zh_tw#/firstpage",
-                "counts": 3
-            }
+                {
+                    "alias": "dcRi4m",
+                    "origin": "https://www.google.com.tw?region=zh_tw#/firstpage",
+                    "counts": 3
+                }
             ]
         }
     ]
