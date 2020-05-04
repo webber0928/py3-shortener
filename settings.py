@@ -1,0 +1,11 @@
+import os
+
+DEBUG = True
+SERVER_NAME = '192.168.56.103:3000'
+DB_USERNAME = 'webber'
+DB_PASSWORD = 'n.NP.tN7'
+DB_DATABASE_NAME = 'shortener'
+DB_HOST = os.getenv('IP', '127.0.0.1')
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+SQLALCHEMY_DATABASE_URI = "mysql+pymysql://%s:%s@%s/%s" % (
+    DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DATABASE_NAME)
