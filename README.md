@@ -4,6 +4,10 @@
 
 `python3 script/create_db.py`
 
+## start
+
+`python3 main.py`
+
 ## api list
 
 ```
